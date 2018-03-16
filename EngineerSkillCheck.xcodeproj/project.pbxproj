@@ -18,9 +18,12 @@
 		D6C5F9BF205B6446000E1D3D /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */; };
 		D6C5F9C1205B6621000E1D3D /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C0205B6621000E1D3D /* UIView+.swift */; };
 		D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */; };
+		EE66271345EAD7CEF8AA38CC /* Pods_EngineerSkillCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8231FE8690590B0A6EAF1B11 /* Pods-EngineerSkillCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerSkillCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngineerSkillCheck/Pods-EngineerSkillCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A3E1C50D4C02C49C6C13DB /* Pods-EngineerSkillCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerSkillCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngineerSkillCheck/Pods-EngineerSkillCheck.release.xcconfig"; sourceTree = "<group>"; };
 		D6C5F99C205B5F6A000E1D3D /* EngineerSkillCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineerSkillCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C5F99F205B5F6A000E1D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C5F9A1205B5F6A000E1D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
 		D6C5F9C0205B6621000E1D3D /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerSkillCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE66271345EAD7CEF8AA38CC /* Pods_EngineerSkillCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D0F93458C1DE04DBF26875E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8231FE8690590B0A6EAF1B11 /* Pods-EngineerSkillCheck.debug.xcconfig */,
+				C5A3E1C50D4C02C49C6C13DB /* Pods-EngineerSkillCheck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B335ACA08527CF1E62B140A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6C5F993205B5F6A000E1D3D = {
 			isa = PBXGroup;
 			children = (
 				D6C5F99E205B5F6A000E1D3D /* EngineerSkillCheck */,
 				D6C5F99D205B5F6A000E1D3D /* Products */,
+				1D0F93458C1DE04DBF26875E /* Pods */,
+				7B335ACA08527CF1E62B140A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C5F9AE205B5F6A000E1D3D /* Build configuration list for PBXNativeTarget "EngineerSkillCheck" */;
 			buildPhases = (
+				793E7C7DE2D8CA4E3856E9A2 /* [CP] Check Pods Manifest.lock */,
 				D6C5F998205B5F6A000E1D3D /* Sources */,
 				D6C5F999205B5F6A000E1D3D /* Frameworks */,
 				D6C5F99A205B5F6A000E1D3D /* Resources */,
+				29687EB50F0D479B85DC6FED /* [CP] Embed Pods Frameworks */,
+				33382381B33F370E8EF1A616 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +232,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29687EB50F0D479B85DC6FED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EngineerSkillCheck/Pods-EngineerSkillCheck-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngineerSkillCheck/Pods-EngineerSkillCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33382381B33F370E8EF1A616 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngineerSkillCheck/Pods-EngineerSkillCheck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793E7C7DE2D8CA4E3856E9A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EngineerSkillCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6C5F998205B5F6A000E1D3D /* Sources */ = {
@@ -352,6 +435,7 @@
 		};
 		D6C5F9AF205B5F6A000E1D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8231FE8690590B0A6EAF1B11 /* Pods-EngineerSkillCheck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,6 +452,7 @@
 		};
 		D6C5F9B0205B5F6A000E1D3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A3E1C50D4C02C49C6C13DB /* Pods-EngineerSkillCheck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
