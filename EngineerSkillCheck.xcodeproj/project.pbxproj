@@ -18,6 +18,8 @@
 		D6C5F9BF205B6446000E1D3D /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */; };
 		D6C5F9C1205B6621000E1D3D /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C0205B6621000E1D3D /* UIView+.swift */; };
 		D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */; };
+		D6C5F9C9205B6944000E1D3D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C8205B6944000E1D3D /* APIManager.swift */; };
+		D6C5F9CB205B6A29000E1D3D /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9CA205B6A29000E1D3D /* URL.swift */; };
 		EE66271345EAD7CEF8AA38CC /* Pods_EngineerSkillCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
 		D6C5F9C0205B6621000E1D3D /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		D6C5F9C8205B6944000E1D3D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D6C5F9CA205B6A29000E1D3D /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerSkillCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +97,7 @@
 				D6C5F9B1205B5FC9000E1D3D /* Application */,
 				D6C5F9B2205B5FE2000E1D3D /* Resources */,
 				D6C5F9B3205B5FF8000E1D3D /* Extensions */,
+				D6C5F9C7205B692F000E1D3D /* Utilities */,
 				D6C5F9B4205B600D000E1D3D /* Models */,
 				D6C5F9B5205B6017000E1D3D /* Modules */,
 			);
@@ -132,6 +137,7 @@
 			children = (
 				D6C5F9BA205B6256000E1D3D /* GitHubSearchUserResponse.swift */,
 				D6C5F9BC205B62E6000E1D3D /* GitHubUser.swift */,
+				D6C5F9CA205B6A29000E1D3D /* URL.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +166,14 @@
 				D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		D6C5F9C7205B692F000E1D3D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6C5F9C8205B6944000E1D3D /* APIManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C5F9C9205B6944000E1D3D /* APIManager.swift in Sources */,
 				D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */,
+				D6C5F9CB205B6A29000E1D3D /* URL.swift in Sources */,
 				D6C5F9C1205B6621000E1D3D /* UIView+.swift in Sources */,
 				D6C5F9A2205B5F6A000E1D3D /* ViewController.swift in Sources */,
 				D6C5F9BD205B62E6000E1D3D /* GitHubUser.swift in Sources */,
@@ -440,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5EF57U232;
-				INFOPLIST_FILE = EngineerSkillCheck/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EngineerSkillCheck/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = individual.EngineerSkillCheck;
@@ -457,7 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5EF57U232;
-				INFOPLIST_FILE = EngineerSkillCheck/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EngineerSkillCheck/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = individual.EngineerSkillCheck;
