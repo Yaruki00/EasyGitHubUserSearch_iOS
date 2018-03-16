@@ -13,10 +13,10 @@ extension UIView {
     
     func matchParent(_ parent: UIView) {
         self.translatesAutoresizingMaskIntoConstraints = false
-        self.topAnchor.constraint(equalTo: parent.topAnchor)
-        self.leadingAnchor.constraint(equalTo: parent.leadingAnchor)
-        self.trailingAnchor.constraint(equalTo: parent.trailingAnchor)
-        self.bottomAnchor.constraint(equalTo: parent.bottomAnchor)
+        self.topAnchor.constraint(equalTo: parent.topAnchor).isActive = true
+        self.leadingAnchor.constraint(equalTo: parent.leadingAnchor).isActive = true
+        self.trailingAnchor.constraint(equalTo: parent.trailingAnchor).isActive = true
+        self.bottomAnchor.constraint(equalTo: parent.bottomAnchor).isActive = true
     }
     
     func systemLayoutFitToWidth(_ width: CGFloat) {

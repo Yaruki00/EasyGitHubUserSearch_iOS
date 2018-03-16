@@ -22,6 +22,8 @@
 		D6C5F9CD205B71F1000E1D3D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9CC205B71F1000E1D3D /* SearchViewController.swift */; };
 		D6C5F9CF205B75C1000E1D3D /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9CE205B75C1000E1D3D /* UIAlertController+.swift */; };
 		D6C5F9D2205B7765000E1D3D /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9D1205B7765000E1D3D /* SearchCell.swift */; };
+		D6C5F9D4205B97B3000E1D3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9D3205B97B3000E1D3D /* DetailViewController.swift */; };
+		D6C5F9D6205B9BED000E1D3D /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9D5205B9BED000E1D3D /* TransitionManager.swift */; };
 		EE66271345EAD7CEF8AA38CC /* Pods_EngineerSkillCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		D6C5F9CC205B71F1000E1D3D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D6C5F9CE205B75C1000E1D3D /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		D6C5F9D1205B7765000E1D3D /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		D6C5F9D3205B97B3000E1D3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D6C5F9D5205B9BED000E1D3D /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerSkillCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -169,6 +173,7 @@
 		D6C5F9B7205B6043000E1D3D /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				D6C5F9D3205B97B3000E1D3D /* DetailViewController.swift */,
 				D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */,
 			);
 			path = Detail;
@@ -178,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				D6C5F9C8205B6944000E1D3D /* APIManager.swift */,
+				D6C5F9D5205B9BED000E1D3D /* TransitionManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -325,6 +331,8 @@
 				D6C5F9C9205B6944000E1D3D /* APIManager.swift in Sources */,
 				D6C5F9D2205B7765000E1D3D /* SearchCell.swift in Sources */,
 				D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */,
+				D6C5F9D6205B9BED000E1D3D /* TransitionManager.swift in Sources */,
+				D6C5F9D4205B97B3000E1D3D /* DetailViewController.swift in Sources */,
 				D6C5F9CB205B6A29000E1D3D /* URL.swift in Sources */,
 				D6C5F9CD205B71F1000E1D3D /* SearchViewController.swift in Sources */,
 				D6C5F9CF205B75C1000E1D3D /* UIAlertController+.swift in Sources */,

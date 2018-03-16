@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="w63-xj-hn1">
             <objects>
-                <viewController id="W1P-ef-8vz" sceneMemberID="viewController">
+                <viewController id="W1P-ef-8vz" customClass="DetailViewController" customModule="EngineerSkillCheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u84-7a-0Gg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,13 +25,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Avg-UK-Ifo" firstAttribute="bottom" secondItem="Bvy-vf-HGt" secondAttribute="bottom" id="DTS-bV-NDp"/>
+                            <constraint firstItem="Avg-UK-Ifo" firstAttribute="bottom" secondItem="u84-7a-0Gg" secondAttribute="bottom" id="DTS-bV-NDp"/>
                             <constraint firstItem="Avg-UK-Ifo" firstAttribute="top" secondItem="Bvy-vf-HGt" secondAttribute="top" id="PJR-jQ-5g9"/>
                             <constraint firstItem="Avg-UK-Ifo" firstAttribute="trailing" secondItem="Bvy-vf-HGt" secondAttribute="trailing" id="hsd-bW-3ep"/>
                             <constraint firstItem="Avg-UK-Ifo" firstAttribute="leading" secondItem="Bvy-vf-HGt" secondAttribute="leading" id="kkJ-aJ-r8v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bvy-vf-HGt"/>
                     </view>
+                    <connections>
+                        <outlet property="webFrameView" destination="Avg-UK-Ifo" id="UhO-7v-HVu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ziB-rQ-H9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

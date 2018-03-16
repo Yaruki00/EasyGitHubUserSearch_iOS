@@ -70,6 +70,7 @@ extension SearchViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.tableView.deselectRow(at: indexPath, animated: true)
-        // TODO: move to detail
+        let data = self.userList[indexPath.row]
+        TransitionManager.pushDeail(vc: self, name: data.login, urlString: data.htmlURL)
     }
 }
