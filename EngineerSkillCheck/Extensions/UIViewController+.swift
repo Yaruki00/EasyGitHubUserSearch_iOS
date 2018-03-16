@@ -36,3 +36,29 @@ extension StoryBoardInstantiatable where Self: UIViewController {
         return vc
     }
 }
+
+extension UIViewController {
+    
+    private var loadingViewTag: Int { return 610 }
+    
+    @objc
+    func showActivityIndicator() {
+        guard self.view.viewWithTag(self.loadingViewTag) == nil else {
+            return
+        }
+        let loadingView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        loadingView.tag = self.loadingViewTag
+        loadingView.backgroundColor = UIColor.black.withAlphaComponent(0.3)
+        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .white)
+        indicator.center = CGPoint(x: loadingView.frame.size.width/2, y: loadingView.frame.size.height/4)
+        loadingView.addSubview(indicator)
+        indicator.startAnimating()
+        self.view.addSubview(loadingView)
+    }
+    
+    func hideActivityIndicator() {
+        if let loadingView = self.view.viewWithTag(self.loadingViewTag) {
+            loadingView.removeFromSuperview()
+        }
+    }
+}

@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="-340" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Search User-->
         <scene sceneID="QLt-1I-PV3">
             <objects>
-                <viewController id="Opp-k4-qyu" sceneMemberID="viewController">
+                <viewController id="Opp-k4-qyu" customClass="SearchViewController" customModule="EngineerSkillCheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fwt-cu-qiw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,12 +41,15 @@
                                     <constraint firstAttribute="height" constant="56" id="8TE-ap-uCp"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Opp-k4-qyu" id="d3J-6K-8I2"/>
+                                </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ogy-xo-aMj">
                                 <rect key="frame" x="0.0" y="120" width="375" height="547"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="qWv-zQ-Egd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchCell" rowHeight="80" id="qWv-zQ-Egd" customClass="SearchCell" customModule="EngineerSkillCheck" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qWv-zQ-Egd" id="9jf-WZ-cgB">
@@ -91,8 +94,17 @@
                                                 <constraint firstItem="OX2-lq-RMx" firstAttribute="bottom" secondItem="9jf-WZ-cgB" secondAttribute="bottomMargin" id="wAm-BK-HXE"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="avatarImageView" destination="OX2-lq-RMx" id="VsJ-0E-FLu"/>
+                                            <outlet property="loginLabel" destination="XMw-yt-t8J" id="4QM-nr-k9Z"/>
+                                            <outlet property="typeLabel" destination="v3F-u6-dfO" id="gxg-AA-4T6"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Opp-k4-qyu" id="MmG-3S-xGy"/>
+                                    <outlet property="delegate" destination="Opp-k4-qyu" id="Uvo-Rd-wmZ"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,7 +119,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rkK-mX-Zui"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gFl-5w-X9s"/>
+                    <navigationItem key="navigationItem" title="Search User" id="gFl-5w-X9s"/>
+                    <connections>
+                        <outlet property="searchBar" destination="8AW-6Q-rgv" id="NM2-GL-f4K"/>
+                        <outlet property="tableView" destination="Ogy-xo-aMj" id="CYL-D0-gOH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7b-tf-nsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

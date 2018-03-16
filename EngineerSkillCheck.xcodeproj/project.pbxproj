@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D6C5F9A0205B5F6A000E1D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F99F205B5F6A000E1D3D /* AppDelegate.swift */; };
-		D6C5F9A2205B5F6A000E1D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9A1205B5F6A000E1D3D /* ViewController.swift */; };
 		D6C5F9A5205B5F6A000E1D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9A3205B5F6A000E1D3D /* Main.storyboard */; };
 		D6C5F9A7205B5F6A000E1D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9A6205B5F6A000E1D3D /* Assets.xcassets */; };
 		D6C5F9AA205B5F6A000E1D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9A8205B5F6A000E1D3D /* LaunchScreen.storyboard */; };
@@ -20,6 +19,9 @@
 		D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */; };
 		D6C5F9C9205B6944000E1D3D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C8205B6944000E1D3D /* APIManager.swift */; };
 		D6C5F9CB205B6A29000E1D3D /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9CA205B6A29000E1D3D /* URL.swift */; };
+		D6C5F9CD205B71F1000E1D3D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9CC205B71F1000E1D3D /* SearchViewController.swift */; };
+		D6C5F9CF205B75C1000E1D3D /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9CE205B75C1000E1D3D /* UIAlertController+.swift */; };
+		D6C5F9D2205B7765000E1D3D /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9D1205B7765000E1D3D /* SearchCell.swift */; };
 		EE66271345EAD7CEF8AA38CC /* Pods_EngineerSkillCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +30,6 @@
 		C5A3E1C50D4C02C49C6C13DB /* Pods-EngineerSkillCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerSkillCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngineerSkillCheck/Pods-EngineerSkillCheck.release.xcconfig"; sourceTree = "<group>"; };
 		D6C5F99C205B5F6A000E1D3D /* EngineerSkillCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineerSkillCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C5F99F205B5F6A000E1D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6C5F9A1205B5F6A000E1D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6C5F9A4205B5F6A000E1D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6C5F9A6205B5F6A000E1D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C5F9A9205B5F6A000E1D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +42,9 @@
 		D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		D6C5F9C8205B6944000E1D3D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		D6C5F9CA205B6A29000E1D3D /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		D6C5F9CC205B71F1000E1D3D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D6C5F9CE205B75C1000E1D3D /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
+		D6C5F9D1205B7765000E1D3D /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		D8FC7A219CD360968FA2FAFA /* Pods_EngineerSkillCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerSkillCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +132,7 @@
 				D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */,
 				D6C5F9C0205B6621000E1D3D /* UIView+.swift */,
 				D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */,
+				D6C5F9CE205B75C1000E1D3D /* UIAlertController+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -154,8 +159,9 @@
 		D6C5F9B6205B6022000E1D3D /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				D6C5F9A1205B5F6A000E1D3D /* ViewController.swift */,
+				D6C5F9CC205B71F1000E1D3D /* SearchViewController.swift */,
 				D6C5F9A3205B5F6A000E1D3D /* Main.storyboard */,
+				D6C5F9D0205B774C000E1D3D /* Cell */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -174,6 +180,14 @@
 				D6C5F9C8205B6944000E1D3D /* APIManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D6C5F9D0205B774C000E1D3D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D6C5F9D1205B7765000E1D3D /* SearchCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,10 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C5F9C9205B6944000E1D3D /* APIManager.swift in Sources */,
+				D6C5F9D2205B7765000E1D3D /* SearchCell.swift in Sources */,
 				D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */,
 				D6C5F9CB205B6A29000E1D3D /* URL.swift in Sources */,
+				D6C5F9CD205B71F1000E1D3D /* SearchViewController.swift in Sources */,
+				D6C5F9CF205B75C1000E1D3D /* UIAlertController+.swift in Sources */,
 				D6C5F9C1205B6621000E1D3D /* UIView+.swift in Sources */,
-				D6C5F9A2205B5F6A000E1D3D /* ViewController.swift in Sources */,
 				D6C5F9BD205B62E6000E1D3D /* GitHubUser.swift in Sources */,
 				D6C5F9BB205B6256000E1D3D /* GitHubSearchUserResponse.swift in Sources */,
 				D6C5F9BF205B6446000E1D3D /* UITableViewCell+.swift in Sources */,
