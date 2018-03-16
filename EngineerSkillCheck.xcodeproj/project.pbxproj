@@ -12,6 +12,7 @@
 		D6C5F9A5205B5F6A000E1D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9A3205B5F6A000E1D3D /* Main.storyboard */; };
 		D6C5F9A7205B5F6A000E1D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9A6205B5F6A000E1D3D /* Assets.xcassets */; };
 		D6C5F9AA205B5F6A000E1D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9A8205B5F6A000E1D3D /* LaunchScreen.storyboard */; };
+		D6C5F9B9205B6181000E1D3D /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D6C5F9A6205B5F6A000E1D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C5F9A9205B5F6A000E1D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C5F9AB205B5F6A000E1D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		D6C5F9B7205B6043000E1D3D /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C5F9B9205B6181000E1D3D /* DetailViewController.storyboard in Resources */,
 				D6C5F9AA205B5F6A000E1D3D /* LaunchScreen.storyboard in Resources */,
 				D6C5F9A7205B5F6A000E1D3D /* Assets.xcassets in Resources */,
 				D6C5F9A5205B5F6A000E1D3D /* Main.storyboard in Resources */,

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W1P-ef-8vz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="w63-xj-hn1">
+            <objects>
+                <viewController id="W1P-ef-8vz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u84-7a-0Gg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Avg-UK-Ifo">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Avg-UK-Ifo" firstAttribute="bottom" secondItem="Bvy-vf-HGt" secondAttribute="bottom" id="DTS-bV-NDp"/>
+                            <constraint firstItem="Avg-UK-Ifo" firstAttribute="top" secondItem="Bvy-vf-HGt" secondAttribute="top" id="PJR-jQ-5g9"/>
+                            <constraint firstItem="Avg-UK-Ifo" firstAttribute="trailing" secondItem="Bvy-vf-HGt" secondAttribute="trailing" id="hsd-bW-3ep"/>
+                            <constraint firstItem="Avg-UK-Ifo" firstAttribute="leading" secondItem="Bvy-vf-HGt" secondAttribute="leading" id="kkJ-aJ-r8v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bvy-vf-HGt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ziB-rQ-H9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="279.31034482758622"/>
+        </scene>
+    </scenes>
+</document>
