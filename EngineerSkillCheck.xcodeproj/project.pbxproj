@@ -15,6 +15,9 @@
 		D6C5F9B9205B6181000E1D3D /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */; };
 		D6C5F9BB205B6256000E1D3D /* GitHubSearchUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9BA205B6256000E1D3D /* GitHubSearchUserResponse.swift */; };
 		D6C5F9BD205B62E6000E1D3D /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9BC205B62E6000E1D3D /* GitHubUser.swift */; };
+		D6C5F9BF205B6446000E1D3D /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */; };
+		D6C5F9C1205B6621000E1D3D /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C0205B6621000E1D3D /* UIView+.swift */; };
+		D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		D6C5F9B8205B6181000E1D3D /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		D6C5F9BA205B6256000E1D3D /* GitHubSearchUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchUserResponse.swift; sourceTree = "<group>"; };
 		D6C5F9BC205B62E6000E1D3D /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
+		D6C5F9C0205B6621000E1D3D /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		D6C5F9B3205B5FF8000E1D3D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D6C5F9BE205B6446000E1D3D /* UITableViewCell+.swift */,
+				D6C5F9C0205B6621000E1D3D /* UIView+.swift */,
+				D6C5F9C2205B6704000E1D3D /* UIViewController+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -202,9 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C5F9C3205B6704000E1D3D /* UIViewController+.swift in Sources */,
+				D6C5F9C1205B6621000E1D3D /* UIView+.swift in Sources */,
 				D6C5F9A2205B5F6A000E1D3D /* ViewController.swift in Sources */,
 				D6C5F9BD205B62E6000E1D3D /* GitHubUser.swift in Sources */,
 				D6C5F9BB205B6256000E1D3D /* GitHubSearchUserResponse.swift in Sources */,
+				D6C5F9BF205B6446000E1D3D /* UITableViewCell+.swift in Sources */,
 				D6C5F9A0205B5F6A000E1D3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
