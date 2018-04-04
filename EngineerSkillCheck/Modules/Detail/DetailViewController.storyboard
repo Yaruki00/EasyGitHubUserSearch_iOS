@@ -13,7 +13,7 @@
         <!--Detail View Controller-->
         <scene sceneID="w63-xj-hn1">
             <objects>
-                <viewController id="W1P-ef-8vz" customClass="DetailViewController" customModule="EngineerSkillCheck" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="W1P-ef-8vz" customClass="DetailViewController" customModule="EngineerSkillCheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u84-7a-0Gg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
